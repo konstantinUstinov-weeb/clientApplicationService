@@ -2,7 +2,7 @@ package prikol2.prikol2.User;
 
 
 import jakarta.persistence.*;
-import prikol2.prikol2.Application.Application;
+import prikol2.prikol2.Application.models.Application;
 
 import java.util.List;
 

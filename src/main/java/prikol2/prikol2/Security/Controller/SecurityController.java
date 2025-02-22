@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import prikol2.prikol2.Application.Repository.ApplicationRepositoryImpl;
 import prikol2.prikol2.Security.Token.JwtToken;
 import prikol2.prikol2.Security.AuthRequest.SignInRequest;
 import prikol2.prikol2.Security.AuthRequest.SignUpRequest;
@@ -33,6 +34,7 @@ public class SecurityController {
     private AuthenticationManager authenticationManager;
     @Autowired
     private JwtToken jwtToken;
+
 
 
 
